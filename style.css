@@ -143,7 +143,7 @@ body {
 }
 
 .quote {
-    max-width: 900px;
+    max-width: 830px;
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
@@ -154,4 +154,48 @@ body {
     margin-left: 500px;
     font-weight: bold;
     font-size: 24px;
+}
+
+/* Call to action Section Styles */
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
+    background-color: #3882f6;
+    margin: 80px;
+    padding: 50px 150px;
+    border-radius: 12px;
+}
+
+.sign-up-text-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-text-1 {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sign-up-text-2 {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.button-2 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    border: 2px solid white;
+    padding: 8px 40px;
+    font-size: 18px;
 }
