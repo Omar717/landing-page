@@ -74,6 +74,7 @@ body {
     padding: 8px 40px;
     margin-top: 12px;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .logo {
@@ -85,6 +86,7 @@ body {
 .link {
     color: #e5e7eb;
     font-size: 18px;
+    text-decoration: none;
 }
 
 .placeholder {
@@ -166,8 +168,7 @@ body {
 
 .sign-up-card {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     gap: 128px;
     background-color: #3882f6;
     margin: 80px;
@@ -198,4 +199,16 @@ body {
     border: 2px solid white;
     padding: 8px 40px;
     font-size: 18px;
+    font-weight: bold;
+}
+
+/* Footer Section Styles */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
