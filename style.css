@@ -13,12 +13,8 @@ body {
 
 .head-wrapper {
     display: flex;
-    justify-content: center;
-    margin-bottom: 64px;
-    margin-top: 16px;
-    margin-right: 80px;
-    margin-left: 30px;
-    gap: 460px;
+    justify-content: space-between;
+    margin: 30px 360px 30px 314px;
 }
 
 .links {
@@ -28,10 +24,8 @@ body {
 
 .container-1 {
     display: flex;
-    justify-content: center;
-    margin-left: 64px;
-    margin-right: 64px;
-    margin-top: 64px;
+    justify-content: space-between;
+    margin: 64px 314px 0 314px;
 }
 
 .image-container {
