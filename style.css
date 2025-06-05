@@ -31,8 +31,8 @@ body {
 .image-container {
     display: flex;
     align-items: center;
-    padding: 120px 150px;
-    background-color: #6d747d;
+    /* padding: 120px 150px;
+    background-color: #6d747d; */
     margin: 48px;
 }
 
@@ -107,6 +107,16 @@ body {
     height: 150px;
     border: 4px solid #3882f6;
     border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .card-container {
@@ -147,6 +157,7 @@ body {
 }
 
 .reference {
+    margin-top: 20px;
     margin-left: 500px;
     font-weight: bold;
     font-size: 24px;
@@ -173,6 +184,7 @@ body {
 .sign-up-text-wrapper {
     display: flex;
     flex-direction: column;
+    max-width: 500px;
 }
 
 .sign-up-text-1 {
