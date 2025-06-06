@@ -3,6 +3,7 @@
 }
 
 body {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -44,8 +45,9 @@ body {
 }
 
 .hero {
-    background-color: #1f2937;
+    background-color: #2b2861;
     padding-bottom: 100px;
+    flex: 1 0 auto;
 }
 
 .hero-text {
@@ -95,6 +97,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-bottom: 80px;
+    flex: 1 0 auto;
 }
 
 .cards {
@@ -146,6 +149,7 @@ body {
     flex-direction: column;
     background-color: #e5e7eb;
     padding: 96px;
+    flex: 1 0 auto;
 }
 
 .quote {
@@ -169,6 +173,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1 0 auto;
 }
 
 .sign-up-card {
@@ -215,6 +220,6 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 48px;
-    background-color: #1f2937;
+    background-color: #2b2861;
     color: #f9faf8;
 }
